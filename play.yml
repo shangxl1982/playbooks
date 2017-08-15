@@ -2,4 +2,4 @@
   hosts: localhost
   tasks:
     - name: "Test credstash lookup plugin -- get the password with a context passed as a variable"
-      debug: msg="{{ what is it }}"
+      debug: msg="{{ "what is it" }}"
